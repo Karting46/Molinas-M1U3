@@ -1,11 +1,34 @@
-h1{
-    font-family: arial narrow bold;
-    text-align: center;
-    background-color: blue;
-    color: white;
-    position: fixed;
-    width: 100%;
-    padding: 15px;
+/*Esto nos permiter ver los límites de cada elemento*/
+*
+{
+    outline: 1px solid red;
 }
 
+header
+{
+    background-color:black;
+}
+
+img
+{
+    position: absolute;
+    left: 928px;
+    padding-top: 5px;
+}
+
+h1
+{
+    font-family: arial narrow bold;
+    text-align: left;
+    color: white;
+    padding-top: 140px;
+    padding-right: 140px;
+    padding-bottom: 140px;
+    padding-left: 30px;
+}
+
+.resaltar
+{
+    font-weight: bold;
+}
 
