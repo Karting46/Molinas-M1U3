@@ -1,0 +1,11 @@
+h1{
+    font-family: arial narrow bold;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+}
+
+
