@@ -1,34 +1,95 @@
-/*Esto nos permiter ver los límites de cada elemento*/
+/*Esto nos permiter ver los límites de cada elemento
 *
 {
     outline: 1px solid red;
 }
+*/
+
+main, article
+{
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
 header
 {
-    background-color:black;
+    background: #ff0000;
+    background: linear-gradient(90deg,#ff0000 3%, #ffce00 30%);
+    background: -webkit-linear-gradient(90deg,#ff0000 3%, #ffce00 30%);
+    background: -moz-linear-gradient(90deg,#ff0000 3%, #ffce00 30%);
 }
 
 img
 {
     position: absolute;
-    left: 928px;
-    padding-top: 5px;
+    left: 906px;
+    top: 50px;
 }
 
 h1
 {
     font-family: arial narrow bold;
+    font-weight: 40px;
     text-align: left;
-    color: white;
+    color: red;
     padding-top: 140px;
     padding-right: 140px;
     padding-bottom: 140px;
     padding-left: 30px;
+    text-shadow: 4px 4px 2px white;
+}
+
+h2
+{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+li, h3, p
+{
+    font-size: 18px;
+    text-align: justify;
+}
+
+#cursiva
+{
+    color: green;
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.formulario
+{
+    margin-right: 80px;
+}
+
+.etiqueta
+{
+    position: absolute;
+    left: 185px;
 }
 
 .resaltar
 {
     font-weight: bold;
 }
+ a:hover
+ {
+    color: red;
+    font-size: 20px;
+    font-family: arial impact;
+    font-weight: bold;
+ }
 
+ .contenedor
+ {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+ }

@@ -8,17 +8,15 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-<header>
-    <div></div>            
-        <h1>
-                NICOLÁS UBUONO - SANTA FE CAPITAL - ARGENTINA
-        </h1>
+    <header>
         <img src="piloto.jpg" width="400" height="260" alt="Nicolás Ubuono">
-    </div>        
-</header>
-<nav>
+        <h1>
+             NICOLÁS UBUONO - SANTA FE CAPITAL - ARGENTINA
+        </h1>
+    </header>
+    <nav>
         
-</nav>
+    </nav>
     <main>
         <h2>Edad:</h2>
         <h3>30 años</h3>
@@ -61,26 +59,37 @@
     </article>
     <footer>
         <p>
-            <h3>Para contactarme llenar el formulario</h3>
+            <h3 id="cursiva">Para contactarme llenar el formulario</h3>
         </p>
         <form action="">
             <p>
-                <label for="nombre">Ingrese su nombre</label>
-                <input type="text" name="nombre" placeholder="Nombre">
+                <label for="nombre" class="formulario">Ingrese su nombre</label>
+                <input type="text" name="nombre" placeholder="Nombre" class="etiqueta">
             </p>
-                <label for="apellido">Ingrese su apellido</label>
-                <input type="text" name="apellido" placeholder="Apellido">
+                <label for="apellido" class="formulario">Ingrese su apellido</label>
+                <input type="text" name="apellido" placeholder="Apellido" class="etiqueta">
             <p>    
-                <label for="teléfono">Ingrese su teléfono</label>
-                <input type="text" name="teléfono" placeholder="Teléfono">
+                <label for="teléfono" class="formulario">Ingrese su teléfono</label>
+                <input type="text" name="teléfono" placeholder="Teléfono" class="etiqueta">
             </p>    
-                <label for="nombre">Ingrese su e-mail</label>
-                <input type="text" name="e-mail" placeholder="e-mail">
+                <label for="nombre" class="formulario">Ingrese su e-mail</label>
+                <input type="text" name="e-mail" placeholder="e-mail" class="etiqueta">
             <p>    
-                <label for="nombre">Ingrese su nacionalidad</label>
-                <input type="text" name="nacionalidad" placeholder="Nacionalidad">
+                <label for="nombre" class="formulario">Ingrese su nacionalidad</label>
+                <input type="text" name="nacionalidad" placeholder="Nacionalidad" class="etiqueta">
             </p>
-                <input type="submit">
+            <p>
+                <div class="contenedor">
+                    <div>
+                        <input type="submit">
+                    </div>
+                    <div>
+                        <a href="#">
+                           "INICIO" 
+                        </a>
+                    </div>
+                </div>
+            </p>
         </form>
     </footer>
 </body>
